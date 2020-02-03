@@ -1,18 +1,16 @@
-﻿using System;
-using System.ComponentModel.Design;
-using System.IO;
-using System.Windows.Forms;
-using System.Linq;
-using System.Globalization;
-using EnvDTE;
-using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.VisualStudio.TextManager.Interop;
-using System.Collections.Generic;
+﻿using EnvDTE;
 using Microsoft.VisualStudio.ComponentModelHost;
 using Microsoft.VisualStudio.Editor;
+using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
+using Microsoft.VisualStudio.TextManager.Interop;
+using System;
+using System.ComponentModel.Design;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace quicktype_vs
 {
